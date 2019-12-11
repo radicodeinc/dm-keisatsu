@@ -20,6 +20,10 @@ class Patrol {
       console.log("自分のメッセージなのでで無視しました");
       return true;
     }
+    if( this.sendUserId === 'UKHA88PMX'){
+      console.log("Pull Remindersなので無視しました");
+      return true;
+    }
     if( this.eventSubType === 'bot_message'){
       console.log("bot messageなので無視しました");
       return true;
