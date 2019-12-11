@@ -95,7 +95,7 @@ const whatIsDmKeisatsu = (options)=>{
           title: '',
           value: `${tripleQuart} # オープンチャネル推進委員会 - DM警察\nより多くの情報がオープンな場所でやりとりされるSlackワークスペースを目指して活動しています。\n\n`
             + `パトロール希望者にDMが送られたとき、その方に代わってオープンチャネルでコミュニケーションを取っていただけるようお声かけをしています。`
-            + `\n\nパトロールのお申し込みは<${config.host}/auth/register|コチラ>からどうぞ！\n${config.host}/auth/register${tripleQuart}`
+            + `\n\n`
           ,
         },
       ],
