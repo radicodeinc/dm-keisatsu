@@ -52,6 +52,8 @@ class Patrol {
       console.log('自分宛のDMは許可');
       return true;
     }
+    console.log(this.sendUserId);
+    console.log(this.eventSubType);
     console.log("介入しますNE");
     return false;
   }
